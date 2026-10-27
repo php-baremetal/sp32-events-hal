@@ -15,7 +15,7 @@ GPIO interrupts and the light-sleep lock that `every()`, `watch_gpio()`, `watch_
 
 Projects do not require it. A project requires `php-baremetal/ext-events` (or a package that needs it, such
 as `ext-i2c` or `ext-web`), and conductor adds `php-baremetal/esp32-events-hal` because the project's SDK
-(`"sdk": "esp32@^1.0"`) has the platform `esp32`:
+(`"sdk": "esp32@^2.0"`) has the platform `esp32`:
 
 ```bash
 composer require php-baremetal/ext-events
