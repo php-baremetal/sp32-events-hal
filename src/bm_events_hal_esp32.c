@@ -113,6 +113,11 @@ bool bm_hal_power_save(void)
     return phpbm_power_save();
 }
 
+bool bm_hal_request_scoped(void)
+{
+    return phpbm_runtime_request_scoped();
+}
+
 bm_hal_pmlock_t *bm_hal_pmlock_create(const char *name)
 {
     esp_pm_lock_handle_t l;
